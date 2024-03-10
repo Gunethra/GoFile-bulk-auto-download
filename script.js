@@ -4,8 +4,8 @@
 // @description  Download all files from a folder on Gofile without having to click each and every download button.
 // @match        *://gofile.io/*
 // @run-at       document-end
-// @downloadURL https://github.com/Gunethra/GoFile-bulk-auto-download/blob/main/script.js
-// @updateURL https://github.com/Gunethra/GoFile-bulk-auto-download/blob/main/script.js
+// @downloadURL https://raw.githubusercontent.com/Gunethra/GoFile-bulk-auto-download/main/script.js
+// @updateURL https://raw.githubusercontent.com/Gunethra/GoFile-bulk-auto-download/main/script.js
 // ==/UserScript==
 
 const links = document.querySelectorAll('a[href*="download"]');
